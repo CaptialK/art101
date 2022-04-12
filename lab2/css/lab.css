@@ -1,0 +1,62 @@
+h1 {
+  color: blue;
+  font-size: 200%;
+  font-family: "Londrina Sketch"
+}
+
+p#red-one {
+  font-family: "comic sans";
+  font-size: 150%;
+  text-indent: 20px;
+  margin-left: 10px;
+}
+
+div.callout p#testcallout {color: brown}
+
+#content {
+  background-color: PapayaWhip;
+
+  width: 1000px;
+  min-height: 1000px;
+  padding: 20px;
+  margin: 20px;
+  border: solid 2px #300597;
+  font-size: 20px;
+}
+
+p#hitchhike {
+  color: cadetblue
+}
+
+h2 {
+  color: orange;
+  font-size: 200%;
+}
+
+p{
+  font-family: "times new roman";
+  text-indent: 50px;
+  margin-left: 10px;
+}
+
+h3 {
+  color: Sandybrown;
+  font-size: 200%;
+  font-family: 'Londrina Sketch', cursive
+}
+
+h4 {
+  color: Darkslategray;
+  font-size: 50px;
+  font-family: 'sans-serif'; cursive
+}
+
+h5 {
+  color: Sandybrown;
+  font-size: 200%;
+  font-family: 'Londrina Sketch', cursive
+}
+
+.img-eye {
+width: 300;
+}
