@@ -1,0 +1,20 @@
+h1 {
+  color: FloralWhite;
+  font-family: "Times new roman";
+  fot-size: 200%;
+}
+
+#info {
+background-color: DarkSlateGrey;
+
+width: 1440px;
+min-height: 1280px;
+padding: 80px;
+margin: 20px;
+border: solid 15px #808000;
+font-size: 20px;
+}
+
+#selfie {
+  width: 500;
+}
