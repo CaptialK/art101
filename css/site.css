@@ -1,20 +1,61 @@
-h1 {
+ h1 {
   color: FloralWhite;
   font-family: "Times new roman";
-  fot-size: 200%;
+  font-size: 300%;
+  text-align: center;
 }
 
-#info {
+.info {
 background-color: DarkSlateGrey;
 
 width: 1440px;
 min-height: 1280px;
 padding: 80px;
 margin: 20px;
-border: solid 15px #808000;
-font-size: 20px;
+border: solid 15px #F4A460;
 }
 
-#selfie {
-  width: 500;
+.my-pic {
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px solid #F4A460;
+}
+
+h2 {
+  color: FloralWhite;
+  font-family: "Times new roman";
+  font-size: 200%;
+  text-align: center
+}
+
+div.info p#aboutme {
+  color: DarkSeaGreen;
+  font-family: "Times new roman";
+  font-size: 200%;
+  text-align: center;
+}
+
+#labs {
+  background-color: DarkSlateGrey;
+  width: 1440px;
+  min-height: 1280px;
+  padding: 80px;
+  margin: 20px;
+  border: solid 15px #F4A460;
+}
+
+h3 {
+  color: FloralWhite;
+  font-family: "Times new roman";
+  font-size: 400%;
+  text-align: center
+}
+
+h4 {
+  color: FloralWhite;
+  font-family: "Times new roman";
+  font-size: 400;
+  text-align: center
 }

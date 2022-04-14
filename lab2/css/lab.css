@@ -11,7 +11,8 @@ p#red-one {
   margin-left: 10px;
 }
 
-div.callout p#testcallout {color: brown}
+div.callout p#testcallout {color: brown;
+}
 
 #content {
   background-color: PapayaWhip;
