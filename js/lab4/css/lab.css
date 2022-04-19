@@ -1,0 +1,59 @@
+.callout {
+  background-color: Darksalmon;
+
+  width: 1440px;
+  min-height: 1280px;
+  padding: 80px;
+  margin: 20px;
+  border: solid 15px #808000;
+  font-size: 20px;
+  }
+
+h6 {
+  color: Gold;
+  font-family: "Times new roman";
+  font-size: 30px;
+  text-align: center
+}
+
+h2 {
+  color: FloralWhite;
+  font-family: "Times new roman";
+  font-size: 30px;
+  text-align: center;
+}
+
+h3 {
+  color: gold;
+  text-shadow: 0 0 2px Moccasin;
+  font-family: "Times New Roman";
+  text-align: center;
+}
+
+h1 {
+  color: DarkOliveGreen;
+  font-family: "Times new roman";
+  font-size: 250%;
+  text-align: center
+}
+
+h4{
+  color: gold;
+  text-shadow: 0 0 2px Moccasin;
+  font-family: "Times New Roman";
+  text-align: center;
+}
+
+h5 {
+  color: gold;
+  text-shadow: 0 0 2px Moccasin;
+  font-family: "Times New Roman";
+  text-align: center;
+}
+
+.ballr {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
