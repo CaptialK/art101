@@ -40,10 +40,38 @@ div.info p#aboutme {
 #labs {
   background-color: DarkSlateGrey;
   width: 1440px;
-  min-height: 1280px;
+  min-height: 280px;
   padding: 80px;
   margin: 20px;
   border: solid 15px #F4A460;
+}
+
+#labs ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+
+#labs ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#labs ul li::after {
+  content: '';
+  height: 3px;
+  width: 0%;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: 0.5s;
+}
+
+#labs ul li:hover::after {
+  width: 100%;
 }
 
 h3 {
