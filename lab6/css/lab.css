@@ -1,0 +1,72 @@
+.js {
+  background-color: Orange;
+  width: 1440px;
+  min-height: 140px;
+  padding: 80px;
+  margin: auto;
+  border: solid 15px #FFE4C4;
+  font-size: 20px;
+  color: Beige;
+  font-family: "Times new roman";
+  text-align: center;
+}
+
+.banner {
+   width: 100%;
+   height: 100%;
+   background-color: #1c2c3c;
+   background-size: cover;
+   background-position: center;
+}
+
+#task3 {
+  background-color: CadetBlue;
+  width: 1440px;
+  min-height: 140px;
+  padding: 80px;
+  margin: auto;
+  border: solid 15px #FFE4C4;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 10px;
+  color: Seagreen;
+  font-family: "Times new roman";
+  font-size: 60px;
+  text-align: center;}
+
+h4 {
+  font-size: 10px;
+  color: Seagreen;
+  font-family: "Times new roman";
+  font-size: 60px;
+  text-align: center;
+}
+
+h5 {
+  color: Seagreen;
+  font-family: "Times new roman";
+  font-size: 30px;
+  text-align: center;
+}
+
+h3 {
+  color: Seagreen;
+  font-family: "Times new roman";
+  font-size: 30px;
+  text-align: center;
+}
+
+p {
+
+  color: Black;
+  font-family: "Times new roman";
+  font-size: 20px;
+  text-align: center;
+}
+ #carvroomvroom {  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border: 10px solid #FFE4C4;
+ }
