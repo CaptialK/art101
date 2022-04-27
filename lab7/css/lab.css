@@ -18,18 +18,19 @@ text-align: center;
 
 .java {
   border-radius: 25px;
-   background: #73AD21;
+   background: darkseagreen;
    padding: 20px;
    width: 720px;
    min-height: 350px;
    margin: auto;
+   font-style: sans;
 }
 
 .link {
     background-color: Darksalmon;
     width: 1440px;
     min-height: 20px;
-    margin: 20px;
+    margin: auto;
     border: solid 15px #F4A460;
     text-align: center;
     color: black;
@@ -65,7 +66,7 @@ text-align: center;
   }
 
 h1 {
-  color: rgb(0, 74, 98);
+  color: darkseagreen;
   font-family: "Times ew roman", times, sans-serif;
   font-size: 500%;
   text-align: center;
