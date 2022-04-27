@@ -14,7 +14,7 @@
  color : "black",
  year : 2021,
  age : function() {
-   return 2022 - 2021;
+   return 2022 - age;
  }
 }
 

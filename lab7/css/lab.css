@@ -1,0 +1,89 @@
+body {
+  background-color: ivory;
+}
+
+
+h4 {
+  color: rgb(0, 74, 98);
+  font-family: "Times ew roman", times, sans-serif;
+  font-size: 500%;
+  text-align: center;
+ -webkit-text-stroke: 5px black;
+}
+
+p {
+
+text-align: center;
+}
+
+.java {
+  border-radius: 25px;
+   background: #73AD21;
+   padding: 20px;
+   width: 720px;
+   min-height: 350px;
+   margin: auto;
+}
+
+.link {
+    background-color: Darksalmon;
+    width: 1440px;
+    min-height: 20px;
+    margin: 20px;
+    border: solid 15px #F4A460;
+    text-align: center;
+    color: black;
+    border-left: auto;
+  }
+
+.link  ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+  }
+
+.link ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+.link ul li::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+  }
+
+.link ul li:hover::after {
+    width: 100%;
+  }
+
+h1 {
+  color: rgb(0, 74, 98);
+  font-family: "Times ew roman", times, sans-serif;
+  font-size: 500%;
+  text-align: center;
+ -webkit-text-stroke: 5px black;
+}
+
+h2{
+  color: rgb(0, 74, 98);
+  font-family: "Times ew roman", times, sans-serif;
+  font-size: 500%;
+  text-align: center;
+ -webkit-text-stroke: 5px black;
+}
+
+h3{
+  color: rgb(0, 74, 98);
+  font-family: "Times ew roman", times, sans-serif;
+  font-size: 500%;
+  text-align: center;
+ -webkit-text-stroke: 5px black;
+}
