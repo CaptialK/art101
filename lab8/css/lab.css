@@ -1,0 +1,13 @@
+h1 {
+  color: Grey
+}
+
+.bopbop {
+  background-color: PapayaWhip;
+  width: 1000px;
+  min-height: 1000px;
+  padding: 20px;
+  margin: auto;
+  border: solid 2px green;
+  font-size: 20px;
+}
