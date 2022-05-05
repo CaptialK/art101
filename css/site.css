@@ -29,6 +29,7 @@ body {
   position: fixed;
   left: 100px;
   bottom: 620px;
+  opacity: 0.9;
 }
 
 .dot {
@@ -40,6 +41,7 @@ body {
   position: fixed;
   left: 100px;
   bottom: 605px;
+  opacity: 0.9;
 }
 
 #circle {
