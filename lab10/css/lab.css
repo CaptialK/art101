@@ -35,3 +35,12 @@
   text-align: center;
   color: darksalmon;
 }
+
+.tired {
+  background-color: rgb(0, 74, 98);
+  border:  15px solid #F4A460;
+  width: 1440px;
+  min-height: 80px;
+  padding: 80px;
+  margin: 20px;
+}

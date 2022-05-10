@@ -10,7 +10,7 @@
 //For this function, we are going to short the letters in someone's name.
  function nameSorter(x){
  //using the User's input, add a little comment
- document.getElementById("output").innerHTML= "<b>"+x+"</b> it's very nice to meet you, That's an intresting name, it needs some fixing! <br>";
+ document.getElementById("output").innerHTML= "<b>"+x+"</b> It's very nice to meet you, That's an intresting name, it needs some fixing! <br>";
  document.getElementById("output1").innerHTML=("I'm going to fix it, okay don't worry.<br>");
  //start by making the name into an array and printing out the result
  var split = x.split('');
