@@ -25,3 +25,9 @@
   var userName = window.prompt ("What's your name?");
   //Call the function and add the user input
   document.writeln("And tada! Your name is now <b>"+nameSorter(userName)+"</b<br>");
+
+   document.getElementById("my-button").addEventListener.outputEl("my-button", myFunction);
+
+ function myFunction() {
+   document.getElementById("user-name").innerHTML = "Hello World";
+ }

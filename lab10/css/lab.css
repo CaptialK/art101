@@ -1,0 +1,37 @@
+#output {
+  text-align: center;
+    margin: auto;
+    color: darksalmon;
+}
+#output1 {
+  text-align: center;
+    margin: auto;
+    color: darksalmon;
+}
+#output2 {
+  text-align: center;
+    margin: auto;
+    color: darksalmon;
+}
+#output3 {
+  text-align: center;
+    margin: auto;
+    color: darksalmon;
+}
+#output4 {
+  text-align: center;
+    margin: auto;
+    color: darksalmon;
+}
+
+#user-name {
+  text-align: center;
+    margin: auto;
+    color: darksalmon;
+}
+
+#intro > p {
+  margin: auto;
+  text-align: center;
+  color: darksalmon;
+}
