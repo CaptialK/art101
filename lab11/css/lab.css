@@ -1,0 +1,64 @@
+#change-text2 {
+  margin:auto;
+  text-align: center;
+  color: Beige;
+  font-size: 35px
+}
+
+#change-text1 {
+  margin:auto;
+  text-align: center;
+  color: Beige;
+  font-size: 35px
+}
+
+#change-text3 {
+  margin:auto;
+  text-align: center;
+  color: Beige;
+  font-size: 35px
+}
+
+#intro {
+border: 2px dotted #F4A460;
+border-radius: 100px
+}
+
+#but1 {
+border: 2.5px solid #F4A460;
+  color: beige;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: DarkSeaGreen;
+}
+
+#but2 {
+  border: 2.5px solid #F4A460;
+    color: beige;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: DarkSeaGreen;
+}
+
+#but3 {
+  border: 2.5px solid #F4A460;
+    color: beige;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: DarkSeaGreen;
+}
