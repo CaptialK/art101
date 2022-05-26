@@ -1,0 +1,42 @@
+#content > p {
+  margin: auto;
+  text-align: center;
+  color: darksalmon;
+  border: 10px dotted #F4A460;
+  font-size: 50px;
+}
+
+#inputs {
+  margin: auto;
+  text-align: center;
+}
+
+#numbers {
+  background-color: rgb(0, 74, 98);
+  border:  15px solid #F4A460;
+  width: 1440px;
+  min-height: 200px;
+  padding: 80px;
+  margin: auto;
+  font-size: 25px;
+}
+
+#output {
+  background-color: brown;
+  border:  15px solid #F4A460;
+  width: 1440px;
+  min-height: 280px;
+  padding: 80px;
+  margin: auto;
+  text-align: center;
+}
+
+.linkbox {
+  background-color: peru;
+  border:  15px solid #F4A460;
+  width: 1440px;
+  min-height: 10px;
+  padding: 30px;
+  margin: auto;
+  text-align: center;
+}
