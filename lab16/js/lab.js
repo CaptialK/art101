@@ -7,41 +7,40 @@
 
 
 // Using the core $.ajax() method
-$.ajax({
-    // The URL for the request (from the api docs)
-    url: "https://xkcd.com/info.0.json",
-    // The data to send (will be converted to a query string)
-    data: {
-            // here is where any data required by the api
-            //   goes (check the api docs)
-            id: 123,
-            //cant find this API KEY where does one get this
-            api_key: "",
-          },
-    // Whether this is a POST or GET request
-    type: "GET",
-    // The type of data we expect back
-    dataType : "json",
-    // What do we do when the api call is successful
-    //   all the action goes in here
-    success: function(data) {
-        // do stuff
-        console.log(worked);
-        var firstAPOD = data[0] ;
-        console.log(firstAPOD);
-        var title = firstAPOD.title;
-        var descr = firstAPOD.explaintion;
-        var imgURL = firstAPOD.url;
-        console.log(title,descr, imgURL)
-        $("#output").html(data);
-        $("#output").append("img src=" + imgURL + ">" );
-        $("#output").append("<p>" + descr + "</p>");
-    },
+  URL = "https://api.nasa.gov/planetary/apod?api_key=RgNBs4TjYNVjwPSQLLvkMtIj4zOflKWVB3TikTry"
+function getAjax() {
+      $.ajax({
+          // The URL for the request (ENDPOINT)
+          url: URL,
+          // The data to send (will be converted to a query string)
+          // data: { api_key: RgNBs4TjYNVjwPSQLLvkMtIj4zOflKWVB3TikTry},
+          // Whether this is a POST or GET request
+          type: "GET",
+          // The type of data we expect back
+          // dataType : "json",
+      })
+      // If the request succeeds
+      .done(function(data) {
+          console.log(data);
+          // make our JSON data printable
+          var printableData = "<pre>" + JSON.stringify(data, null, 2) + "</pre>";
+          // put data in webpage
+          // $("#output").append("<p>" + JSON.stringify(data));
+          // $("#output").append("<p>Here's what you should do when you are bored: <b>" + data.activity);
+          // $("#output").append(printableData);
+          // $("#output").append("<p>The most stable smart man in the room says: <b>" + data.quote);
+          $("#title").html(data.title)
+          $("#output").append("<img src=" + data.url + ">");
+          $("#output").append("<p>" + data.explanation);
+
+      })
+
     // What we do if the api call fails
-    error: function (jqXHR, textStatus, errorThrown) {
+    .fail(function (jqXHR, textStatus, errorThrown) {
         // do stuff
         console.log("Something went wrong buddy:", textStatus, errorThrown);
         	$("#output").html("Something went wrong buddy.");
-    }
-})
+    });
+  };
+
 $("button").click(getAjax);
